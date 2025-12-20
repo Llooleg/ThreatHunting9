@@ -1,0 +1,6 @@
+"hop","ip","latency_ms","asn","country","latitude","longitude","city"
+1,"192.168.1.1",0,"AS?","Local",55.7558,37.6173,"Local"
+2,"10.120.16.2",0,"AS?","Local",55.7558,37.6173,"Local"
+3,"80.253.16.193",0,"AS20080","EU",50.8503,4.3517,"Unknown"
+4,"72.14.203.49",0,"AS?","Unknown",0,0,"Unknown"
+5,"142.251.64.109",0,"AS?","Unknown",0,0,"Unknown"
