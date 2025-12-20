@@ -2,7 +2,7 @@
 
 # Internet Routing Analysis
 
-R package for analyzing internet structure and routing based on DBIP/MaxMind data and traceroute.
+Пакет R для анализа структуры Интернета и маршрутизации на основе данных DBIP/MaxMind и traceroute.
 
 ## Installation
 
