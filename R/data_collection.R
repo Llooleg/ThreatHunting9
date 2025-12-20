@@ -1,4 +1,4 @@
-
+﻿
 
 download_geolocation <- function(source = "dbip") {
   if (!dir.exists("data-raw")) {
@@ -19,7 +19,7 @@ download_geolocation <- function(source = "dbip") {
 }
 
 process_geolocation <- function(file_path) {
-  # Простая обработка
+
   data <- data.frame(
     ip_range = "192.168.0.0/24",
     country = "RU",

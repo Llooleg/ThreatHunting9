@@ -10,3 +10,6 @@ Imports:
     leaflet,
     dplyr,
     jsonlite
+Suggests:
+    testthat
+    
