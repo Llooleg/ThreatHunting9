@@ -1,13 +1,12 @@
 Package: Интернет-маршрутизация
-Title: Анализ Интернет-маршрутизации и подключения
+Title: Анализ интернет-маршрутизации
 Version: 0.1.0
-Authors@R: 
-    person("Student", "Name", email = "student@edu.ru", role = c("aut", "cre"))
-Description: Собирает и анализирует данные интернет-маршрутизации из DBIP/Maxmind и traceroute. Предоставляет визуализацию и веб-интерфейс.
+Authors@R: person("Student", "Leonid", email = "Loona610@yandex.ru", role = c("aut", "cre"))
+Description: Сбор и анализ данных интернет-маршрутизации с помощью DBIP/MaxMind и traceroute
 License: MIT
 Imports:
     httr,
-    jsonlite,
-    dplyr,
     shiny,
-    leaflet
+    leaflet,
+    dplyr,
+    jsonlite
