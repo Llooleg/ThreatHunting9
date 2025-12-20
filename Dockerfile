@@ -1,5 +1,5 @@
 # Используем базовый образ с R и Shiny
-FROM rocker/shiny:4.3.0
+FROM r-base:4.3.0
 
 # Установим системные утилиты (traceroute для Linux)
 RUN apt-get update && apt-get install -y \
