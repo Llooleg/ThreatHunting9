@@ -1,14 +1,11 @@
 version: '3.8'
 
 services:
-  internet-routing:
+  shiny-app:
     image: threathunting9-internet-routing-app:latest
     container_name: internet-routing-app
     ports:
-      - "3838:3838"  # стандартный порт для Shiny
-      - "8787:8787"  # если используется RStudio
-    environment:
-      - SHINY_PORT=3838
+      - "8181:3838"  
     restart: unless-stopped
     volumes:
       - ./data:/app/data  # если нужно монтировать данные
