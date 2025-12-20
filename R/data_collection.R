@@ -4,7 +4,7 @@ download_geolocation <- function(source = "dbip") {
   if (!dir.exists("data-raw")) {
     dir.create("data-raw", recursive = TRUE)
   }
-  
+   # nolint
   if (source == "dbip") {
     # DB-IP бесплатные данные
     url <- "https://download.db-ip.com/free/dbip-country-lite-2024-12.csv.gz"
@@ -27,5 +27,5 @@ process_geolocation <- function(file_path) {
     latitude = 55.7558,
     longitude = 37.6173
   )
-  return(data)
+  return(data) # nolint # nolint: return_linter.
 }

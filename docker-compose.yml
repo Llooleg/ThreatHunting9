@@ -1,6 +1,11 @@
-version: '3'
+version: '3.8'
+
 services:
-  app:
+  internet-routing-app:
     build: .
+    container_name: internet-routing
     ports:
       - "3838:3838"
+    volumes:
+      - ./data-raw:/app/data-raw
+    restart: unless-stopped
