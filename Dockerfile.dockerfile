@@ -20,7 +20,7 @@ RUN R -e "install.packages(c('shiny', 'leaflet', 'httr', 'dplyr', 'jsonlite'))"
 RUN R -e "devtools::install('/app')"
 
 # Копируем Shiny приложение в правильную директорию
-RUN cp -r inst/shinyapp /srv/shiny-server/internet_routing
+RUN cp -r inst/shinyapp /srv/shiny-server/THREATHUNTING9
 
 # Открываем порт
 EXPOSE 3838
