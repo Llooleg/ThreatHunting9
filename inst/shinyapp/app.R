@@ -19,7 +19,6 @@ server <- function(input, output) {
   output$map <- renderLeaflet({ # nolint
     leaflet() %>% addTiles() %>% setView(0, 0, 2) # nolint
   })
-  
   output$table <- renderTable({ # nolint
     data.frame(IP = input$ip, Status = "Analyzed")
   })
