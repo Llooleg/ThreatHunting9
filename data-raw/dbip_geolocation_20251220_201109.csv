@@ -1,0 +1,8 @@
+"ip_start","ip_end","country_code","country_name","region","city","latitude","longitude","asn","as_name"
+"1.0.0.0","1.255.255.255","US","United States","California","Los Angeles",34.0522,-118.2437,"AS13335","CLOUDFLARENET"
+"2.0.0.0","2.255.255.255","RU","Russia","Moscow","Moscow",55.7558,37.6173,"AS12389","ROSTELECOM"
+"3.0.0.0","3.255.255.255","CN","China","Beijing","Beijing",39.9042,116.4074,"AS4134","CHINANET-BACKBONE"
+"8.8.8.0","8.8.8.255","US","United States","California","Mountain View",37.3861,-122.0838,"AS15169","GOOGLE"
+"10.0.0.0","10.255.255.255","PRIVATE","Private Network",NA,NA,NA,NA,NA,NA
+"172.16.0.0","172.31.255.255","PRIVATE","Private Network",NA,NA,NA,NA,NA,NA
+"192.168.0.0","192.168.255.255","PRIVATE","Private Network",NA,NA,NA,NA,NA,NA
