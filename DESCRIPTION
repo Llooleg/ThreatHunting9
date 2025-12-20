@@ -1,15 +1,18 @@
-Package: Интернет-маршрутизация
-Title: Анализ интернет-маршрутизации
+Package: internetRouting
+Title: Internet Routing Analysis
 Version: 0.1.0
-Authors@R: person("Student", "Leonid", email = "Loona610@yandex.ru", role = c("aut", "cre"))
-Description: Сбор и анализ данных интернет-маршрутизации с помощью DBIP/MaxMind и traceroute
+Authors@R: 
+    person("Student", "Name", email = "leonid4216244@gmail.com", role = c("aut", "cre"))
+Description: Collect and analyze internet routing data from DBIP/MaxMind and traceroute
 License: MIT
+Encoding: UTF-8
+LazyData: true
 Imports:
     httr,
     shiny,
     leaflet,
     dplyr,
-    jsonlite
+    ggplot2,
+    DT
 Suggests:
     testthat
-    
